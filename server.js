@@ -28,7 +28,7 @@ app.use(cors());
 const db = mongoose.connection;
 
 //connecting Contact.js
-const dbURI = 'mongodb+srv://Kable:Kable@cluster0.icrx39b.mongodb.net/';
+const dbURI = 'mongodb+srv://Oljarj:CatinpantS@cluster0.c8oywcv.mongodb.net/';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => app.listen(5000, () => console.log('Server running')))
   .catch(err => console.error(err));
